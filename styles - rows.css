@@ -1,0 +1,25 @@
+body  {
+    font-family: 'Poppins',sans-serif;
+}
+
+.conatiner {
+    max-width: 100%;
+}
+
+.item-grid {
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 2fr 3fr;
+    grid-auto-rows: 4fr;
+    grid-gap: 1rem;
+}
+
+.item{
+
+    background: coral;
+    padding: 1rem;
+    border: 1px solid red;
+    text-align: center;
+    
+}
