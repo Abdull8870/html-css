@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: rgb(185, 185, 193);
+    align-items: center;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;   
+    background-color: aqua;
+    flex:1;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: black;
+}
+
+.item {
+    margin: 20px;
+}
+
+img {
+ height: 40px;
+ width: 50px;
+}
