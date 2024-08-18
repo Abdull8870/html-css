@@ -279,3 +279,15 @@ input[type="radio"]{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+/* @media only screen and (max-width :600px){
+
+    .logo{
+        width: 100px;
+    }
+
+    nav button {
+        padd
+    }
+
+} */
